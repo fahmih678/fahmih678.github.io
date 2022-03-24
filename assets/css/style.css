@@ -8,6 +8,26 @@
 #card-profile .translate-middle {
   transform: translate(-0%, -25%) !important;
 }
-#card-tab .translate-middle {
-  transform: translate(50%, 0%) !important;
+
+#tab .nav-pills .nav-link {
+  color: black;
+  background-color: white;
+}
+
+#tab .nav-pills .nav-link.active {
+  color: black;
+  background-color: white;
+  text-decoration: underline;
+}
+@media (max-width: 767.98px) {
+  #tab .position-relative .position-absolute {
+    position: relative !important;
+  }
+
+  #tab {
+    transform: translate(-0%, -15%) !important;
+  }
+  #card-profile .position-relative .position-absolute {
+    position: relative !important;
+  }
 }

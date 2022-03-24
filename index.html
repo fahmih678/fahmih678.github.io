@@ -165,62 +165,81 @@
         <div class="position-relative">
           <div class="position-absolute end-0 col-md-8 justify-items-end">
             <div class="row ms-5 my-4">
-              <div class="col-md-3">
-                <h5>Work Experience</h5>
-              </div>
-              <div class="col-md-3">
-                <h5>Recent Project</h5>
-              </div>
-            </div>
-            <hr />
-            <div class="row ms-5">
-              <div class="col-md-4 mt-2 m-0 p-0">
-                <img
-                  src="https://picsum.photos/250/400
-                "
-                  class="m-0"
-                  alt=""
-                />
-              </div>
-              <div class="col-md-4 mt-2 m-0 p-0">
-                <img
-                  src="https://picsum.photos/250/300
-                "
-                  class="m-0"
-                  alt=""
-                />
-              </div>
-              <div class="col-md-4 mt-2 m-0 p-0">
-                <img
-                  src="https://picsum.photos/250/400
-                "
-                  class="m-0"
-                  alt=""
-                />
-              </div>
-              <div class="col-md-4 mt-2 m-0 p-0">
-                <img
-                  src="https://picsum.photos/250/400
-                "
-                  class="m-0"
-                  alt=""
-                />
-              </div>
-              <div class="col-md-4 mt-2 m-0 p-0">
-                <img
-                  src="https://picsum.photos/250/300
-                "
-                  class="m-0"
-                  alt=""
-                />
-              </div>
-              <div class="col-md-4 mt-2 m-0 p-0">
-                <img
-                  src="https://picsum.photos/250/400
-                "
-                  class="m-0"
-                  alt=""
-                />
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-home"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-home"
+                    aria-selected="true"
+                  >
+                    Work Experience
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-profile-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-profile"
+                    aria-selected="false"
+                  >
+                    Recent Project
+                  </button>
+                </li>
+              </ul>
+
+              <hr />
+
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                >
+                  <div class="row">
+                    <div class="col-md-4 mt-2 m-0 p-0">
+                      <img
+                        src="https://picsum.photos/250/400
+                      "
+                        class="m-0"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-md-4 mt-2 m-0 p-0">
+                      <img
+                        src="https://picsum.photos/250/400
+                      "
+                        class="m-0"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-md-4 mt-2 m-0 p-0">
+                      <img
+                        src="https://picsum.photos/250/400
+                      "
+                        class="m-0"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+                >
+                  ...
+                </div>
               </div>
             </div>
           </div>
