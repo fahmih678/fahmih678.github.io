@@ -1,0 +1,13 @@
+#bg-image .bg-image {
+  background: url(/assets/images/bg.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+#card-profile .translate-middle {
+  transform: translate(-0%, -25%) !important;
+}
+#card-tab .translate-middle {
+  transform: translate(50%, 0%) !important;
+}
