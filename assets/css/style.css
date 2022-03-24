@@ -23,10 +23,10 @@
   #tab .position-relative .position-absolute {
     position: relative !important;
   }
-
-  #tab {
-    transform: translate(-0%, -15%) !important;
+  #tab .ms-5 {
+    margin-left: 0 !important;
   }
+
   #card-profile .position-relative .position-absolute {
     position: relative !important;
   }
