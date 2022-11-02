@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dhansite/test.dhansite.com
+
+    - /usr/bin/rsync -Paz * $DEPLOYPATH --delete
